@@ -23,16 +23,16 @@ We use **Conventional Commits** so history and release tooling stay consistent.
   - `refactor` — Code or skill structure change, no behavior change
   - `chore` — Tooling, .gitignore, repo config
 
-- **scope** (optional): e.g. `twitter-influencer-posts`, `readme`, `contributing`.
+- **scope** (optional): e.g. `twitter-influencer-skill`, `readme`, `contributing`.
 
 - **short description**: Imperative, lowercase start, no period. Max ~72 chars for the subject line.
 
 ### Examples
 
 ```text
-feat(twitter-influencer-posts): add support for thread drafts
+feat(twitter-influencer-skill): add support for thread drafts
 docs(readme): add installation and configuration section
-fix(twitter-influencer-posts): correct character count in examples
+fix(twitter-influencer-skill): correct character count in examples
 chore: update .gitignore for env files
 ```
 

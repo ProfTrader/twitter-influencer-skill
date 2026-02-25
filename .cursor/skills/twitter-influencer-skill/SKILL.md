@@ -1,5 +1,5 @@
 ---
-name: twitter-influencer-posts
+name: twitter-influencer-skill
 description: Writes Twitter/X posts in the style of specified influencers (e.g. Nick Huber @sweatystartup–style social engineering), with controversial takes, hooks, colloquial/grammar quirks, and correct @mentions. Uses Twitter API and Grok API to learn from the user's likes and tweets (whom to offend/not, posting style). Use when the user asks for tweet drafts, Twitter posts, influencer-style copy, Nick Huber style, social-engineering style, or to mention specific handles.
 ---
 

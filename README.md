@@ -20,7 +20,7 @@ Cursor agent skills for specialized workflows. Use these skills inside [Cursor](
 skills_for_ai/
 ├── .cursor/
 │   └── skills/
-│       └── twitter-influencer-posts/
+│       └── twitter-influencer-skill/
 │           ├── SKILL.md           # Skill definition and when to use
 │           ├── examples.md        # Example outputs
 │           └── references/
@@ -48,7 +48,7 @@ skills_for_ai/
 
 2. **Use in Cursor**
    - Open the cloned folder (or a project that includes it) in Cursor. Skills under `.cursor/skills/` are picked up automatically when the agent matches the skill’s description.
-   - Alternatively, copy the `.cursor/skills/twitter-influencer-posts` folder into your own project’s `.cursor/skills/`.
+   - Alternatively, copy the `.cursor/skills/twitter-influencer-skill` folder into your own project’s `.cursor/skills/`.
 
 3. **Optional: API access**
    - See [Configuration](#configuration). Credentials are **never** committed; use local `.env` or Cursor’s secret handling.
@@ -59,7 +59,7 @@ This repo does **not** contain any API keys, tokens, or other secrets. If you wa
 
 - Create a `.env` file in your project (or use Cursor’s recommended way to store secrets).
 - Use the variable names listed in `.env.example` only as a reference. Set values locally; do not commit `.env`.
-- See `.cursor/skills/twitter-influencer-posts/references/api-usage.md` for required endpoints and parameters. Credentials are always supplied by you.
+- See `.cursor/skills/twitter-influencer-skill/references/api-usage.md` for required endpoints and parameters. Credentials are always supplied by you.
 
 ## Usage
 
