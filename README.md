@@ -74,6 +74,7 @@ In Cursor, ask for:
 - Security reporting: `SECURITY.md`
 - Conduct: `CODE_OF_CONDUCT.md`
 - Version history: `CHANGELOG.md`
+- Maintainer roadmap: `ROADMAP.md`
 
 ## License
 
