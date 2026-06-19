@@ -17,6 +17,7 @@ The skill helps generate punchy, niche-relevant tweet drafts with hooks, style c
 
 - Influencer-style tweet drafting (1–3 variants)
 - Optional personalization from likes/tweets (if API creds are provided)
+- Optional public-source packet fallback for browser, API, or TweetClaw exports
 - Optional trend/sensitive-topic context via xAI Grok
 - Clean secret handling with `.env.example` (no real tokens in repo)
 
@@ -67,6 +68,7 @@ In Cursor, ask for:
 - “Write a tweet in @sweatystartup style about ___”
 - “Give me 3 controversial hooks for ___ under 280 chars”
 - “Draft mention-ready tweet for @handle on ___”
+- “Use this public source packet to draft 3 hooks in my voice”
 
 ## Documentation
 

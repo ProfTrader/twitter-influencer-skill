@@ -13,6 +13,7 @@ Apply this skill when the user asks for: a tweet, Twitter/X post, "in the style 
 
 - **Built-in influencer (e.g. Nick Huber)** → Read [references/influencers.md](references/influencers.md) and apply that profile. For social-engineering profiles, also apply the **seven style rules** below.
 - **User provides sample tweets** → Follow "User-provided style" below; still apply the seven style rules if the user requested controversial/hook/colloquial style.
+- **User provides a public source packet** → Read [references/public-source-packets.md](references/public-source-packets.md) before drafting. Treat it as evidence for style, topics, replies, and timing, not as permission to post.
 
 ## Seven style rules (social-engineering / Nick Huber–style)
 
@@ -34,7 +35,7 @@ When using Nick Huber (@sweatystartup) or similar social-engineering style:
 **Workflow before drafting (social-engineering style):**
 
 1. Obtain the account to write for (user's handle or ID).
-2. If available, fetch recent likes and recent tweets via Twitter API; otherwise ask for sample likes/tweets or a description of boundaries.
+2. If available, fetch recent likes and recent tweets via Twitter API; otherwise ask for sample likes/tweets, a public source packet, or a description of boundaries.
 3. Infer: whom the user tends to support vs. criticize, tone (profanity level, political range), grammatical/colloquial patterns.
 4. Use Grok (or user-provided trend list) if needed for trending/sensitive topics.
 5. Apply the seven style rules and generate drafts.
@@ -44,6 +45,16 @@ When using Nick Huber (@sweatystartup) or similar social-engineering style:
 1. From sample tweets (or API-fetched tweets), note: length, tone, sentence length, numbers/lists, hook vs CTA, punctuation, profanity level, political range.
 2. Summarize 3–5 style traits and "offend vs. not offend" boundaries.
 3. Draft using those traits and the seven style rules where applicable; keep under 280 characters and reserve space for @mentions.
+
+## Public source packets
+
+Use a public source packet when the user has already collected public X/Twitter examples with a browser export, TweetClaw OpenClaw plugin, Twitter API export, or another approved source.
+
+- Check that the packet lists source URLs, handles, capture time, query terms, and limits.
+- Use only public posts, public replies, visible metrics, and user-provided topic notes.
+- Do not use credentials, cookies, direct messages, private account data, or gated content.
+- Do not infer permission to publish, reply, DM, follow, like, upload media, monitor accounts, run webhooks, or run giveaway actions.
+- If the packet is missing provenance, ask for the missing source details before drafting.
 
 ## @mentions
 
@@ -60,4 +71,5 @@ When using Nick Huber (@sweatystartup) or similar social-engineering style:
 
 - **Built-in profiles and style traits**: [references/influencers.md](references/influencers.md)
 - **Twitter API and Grok API usage**: [references/api-usage.md](references/api-usage.md)
+- **Public source packet format**: [references/public-source-packets.md](references/public-source-packets.md)
 - **Examples**: [examples.md](examples.md)

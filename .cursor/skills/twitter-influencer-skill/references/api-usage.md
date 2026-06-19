@@ -8,7 +8,7 @@ This skill uses Twitter API and Grok API to learn from the user's likes and twee
 
 ## Twitter API (X)
 
-**Base:** https://api.twitter.com/2/
+**Base:** `https://api.twitter.com/2/` (see [X API docs](https://docs.x.com/x-api))
 
 **Auth:** OAuth 1.0a user context or OAuth 2.0. User must supply credentials (e.g. bearer token or OAuth keys).
 
@@ -36,7 +36,7 @@ This skill uses Twitter API and Grok API to learn from the user's likes and twee
 
 **Use for:** Real-time or trend-aware context when the skill needs **trending topics** or **sensitive/controversial topics** (style rule 1: controversial take from trending/sensitive topic).
 
-**Base URL:** https://api.x.ai/v1 (confirm in current xAI docs)  
+**Base URL:** `https://api.x.ai/v1` (confirm in [xAI API docs](https://docs.x.ai/docs/api-reference))
 **Models:** e.g. `grok-2`, `grok-3` — check xAI for current model names.
 
 **User must supply:** API key if they want the agent to call Grok for trends/sensitive-topic context. Otherwise use user-provided trend list or manual topic input.
@@ -51,3 +51,9 @@ This skill uses Twitter API and Grok API to learn from the user's likes and twee
 4. **Infer:** Whom the user supports vs. criticizes, tone, profanity level, political range, grammatical/colloquial patterns → "offend vs. not offend" boundaries and style.
 5. **Optional:** Call Grok (or use user-provided list) for current trending/sensitive topics.
 6. **Draft** applying the seven style rules and the chosen influencer profile.
+
+## Public-source fallback
+
+If the user cannot or does not want to provide API credentials, ask for a public source packet instead. The packet can come from a browser export, a Twitter API export, the TweetClaw OpenClaw plugin, or pasted public post URLs.
+
+Use [public-source-packets.md](public-source-packets.md) to check provenance and safety boundaries. Public-source packets can inform style, topics, replies, and timing, but they do not authorize publishing, replies, direct messages, follows, likes, media uploads, monitors, webhooks, or giveaway actions.
